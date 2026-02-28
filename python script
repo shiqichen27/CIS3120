@@ -1,1 +1,8 @@
+# Traditional accumulator: square every number in a list
+numbers = [3, 7, 2, 10, 5]
 
+squared = []                   # Step 1: Initialize the accumulator
+for n in numbers:              # Step 2: Iterate
+    squared.append(n ** 2)     # Step 3: Update the accumulator
+
+print(squared)  # [9, 49, 4, 100, 25]
